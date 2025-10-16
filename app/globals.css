@@ -2,18 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Hintergrundbild */
+/* Graue Hintergrundfarbe */
 body {
-  background-image: url('/bg.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-height: 100vh;
+  background: #111827; /* dunkelgrau */
   color: white;
+  min-height: 100vh;
 }
 
-/* Glass-Effekt */
+/* Glass-Effekt (optional) */
 .glass {
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
@@ -22,7 +18,7 @@ body {
   border-radius: 16px;
 }
 
-/* Farbiger Button */
+/* Button wie auf Startseite */
 .btn-accent {
   background: linear-gradient(135deg, #06b6d4, #0891b2);
   color: white;
