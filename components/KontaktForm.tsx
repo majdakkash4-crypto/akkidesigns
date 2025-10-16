@@ -9,7 +9,6 @@ export default function KontaktForm() {
     const formData = new FormData(e.currentTarget);
     const data = Object.fromEntries(formData.entries());
 
-    // Einfache Mail-to-API (ersetze durch dein Backend wenn vorhanden)
     const res = await fetch('/api/kontakt', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -19,8 +18,7 @@ export default function KontaktForm() {
     if (res.ok) setSent(true);
   };
 
-  if (sent)
-    return <p className="text-cyan-400">Danke! Wir melden uns innerhalb von 24 h.</p>;
+  if (sent) return <p className="text-cyan-400">Danke! Wir melden uns innerhalb von 24 h an support@akkidesigns.de</p>;
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
