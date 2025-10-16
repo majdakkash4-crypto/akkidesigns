@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import ChatBot from '@/components/ChatBot';
+import KontaktForm from '@/components/KontaktForm';
 
 const RobotSpline = dynamic(() => import('@/components/RobotSpline'), { ssr: false });
 
