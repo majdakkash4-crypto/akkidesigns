@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-glass backdrop-blur-md border border-glass-border rounded-xl;
+  }
+  .btn-accent {
+    @apply bg-accent hover:bg-cyan-500 text-black font-semibold px-6 py-3 rounded-full transition;
+  }
+}
