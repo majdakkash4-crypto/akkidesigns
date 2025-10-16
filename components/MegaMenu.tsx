@@ -17,7 +17,7 @@ export default function MegaMenu() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold tracking-wider">
-          AKKI<span className="text-accent">DESIGNS</span>
+          A&K Designs & KI
         </Link>
 
         {/* Desktop Nav */}
