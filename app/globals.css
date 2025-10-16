@@ -4,7 +4,7 @@
 
 /* Hintergrundbild */
 body {
-  background-image: url('/bg.png');
+  background-image: url('public/bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,11 +13,28 @@ body {
   color: white;
 }
 
-/* Glass-Effekt wieder herstellen */
+/* Glass-Effekt */
 .glass {
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
+}
+
+/* Farbiger Button */
+.btn-accent {
+  background: linear-gradient(135deg, #06b6d4, #0891b2);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-accent:hover {
+  background: linear-gradient(135deg, #0891b2, #0e7490);
+  transform: scale(1.05);
 }
