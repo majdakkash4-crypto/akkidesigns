@@ -20,7 +20,7 @@ export default function Home() {
           A&K Designs <span className="text-cyan-400">& KI</span>
         </h1>
         <p className="mt-4 text-lg md:text-xl text-gray-200">
-          3D-Websites, KI-Call-Agenten & smarter Chatbot-Service – alles aus einer Hand.
+          KI-Call-Agenten & smarter Chatbot-Service – alles aus einer Hand.
         </p>
 
         {/* Button öffnet direkt E-Mail */}
